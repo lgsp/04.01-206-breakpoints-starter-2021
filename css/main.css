@@ -4,15 +4,15 @@ body {
 
 /* ----------- For screens 768px and larger ----------- */
 @media 
-     (min-device-width: 768px) 
-     and (max-device-width: 1199px) {
+     (min-width: 768px) 
+     and (max-width: 1199px) {
 	body {
     background: white;
   }
 }
 
 /* ----------- For screens 1200px wide and larger----------- */
-@media (min-device-width: 1200px) {
+@media (min-width: 1200px) {
   body {
     background: red;
   }
